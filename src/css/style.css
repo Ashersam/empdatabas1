@@ -1,0 +1,110 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-blend-mode: lighten;
+        }
+
+        header {
+            background-color: rgb(206, 198, 198);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+            font: 4em Times;
+           
+        }
+
+        form {
+            float: left;
+            padding: 20px;
+            width: 25%;
+            background-color: #f1f1f1;
+            height:700px;
+            box-shadow: #ccc;
+
+            /* only for demonstration, should be removed */
+        }
+
+        nav {
+            float: left;
+            padding: 20px;
+            width: 25%;
+            background-color: #f1f1f1;
+            height:700px;
+            box-shadow: #ccc;
+        }
+
+
+        table {
+            float: left;
+            background-color: rgb(212, 211, 211);
+            text-align: center;
+            padding: 10px;
+            border-collapse: collapse;
+            width: 25%;
+
+        }
+
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+
+        }
+
+        tr.active:nth-child(even) {
+            background-color: #f2f2f2;
+            display: table-row;
+  animation: anim 0.5s ease;
+            
+        }
+
+        th {
+            background-color: rgb(41, 55, 100);
+            color: white;
+        }
+
+
+        input[type=text],
+        select {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            border-radius: 4px;
+            background-color: #214f96;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 20px;
+            padding: 10px;
+            width: 150px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #5053f8;
+            padding-right: 25px;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        p {
+            color: red;
+            font-size: 10px;
+        }
